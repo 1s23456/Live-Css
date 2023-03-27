@@ -1,0 +1,127 @@
+ .box{
+              color: white;
+              background-color: rgb(177, 51, 255);
+              height: 120px;
+              font-size: 70px;
+              padding: 10px;
+              width: 1500px;
+}
+
+
+.container{
+              display: flex;
+              flex-direction: column;
+              justify-content: space-around;
+              margin-top: 10px;
+              margin-left: 10px;
+              float: left;
+}
+
+.box1
+{
+              color: white;
+              background-color: rgb(51,227,255);
+              height: 30px;
+              margin-bottom: 5px;
+              width: 220px;
+              
+}
+
+.box2{
+              
+              color: white;
+              background-color: rgb(51,227,255);
+              height: 30px;
+              margin-bottom: 5px;
+              width: 220px;
+}
+
+
+.box3{
+              
+              color: white;
+              background-color: rgb(51,227,255);
+               height: 30px;
+              margin-bottom: 5px;
+              width: 220px;
+}
+
+
+.box4{
+              
+              color: white;
+              background-color: rgb(51,227,255);
+              height: 30px;
+              margin-bottom: 5px;
+              width: 220px;
+}
+
+ .middle{
+
+              
+                position: relative; 
+               left:103px; 
+               
+}  
+
+body{
+              background-color: rgb(185,119,14);
+}
+
+.last{
+              width: 265px;
+              height: 330px;
+              background-color: rgb(51,227,255);
+              position: relative;
+              left: 1230px;
+              bottom:116px;
+              text-align: center;
+              
+              
+              
+}
+
+.end{
+              color: white;
+              background-color: rgb(51,227,255);
+              width: 1470px;
+              text-align: center;
+              height: 34px;
+              padding: 10px;
+               position: relative;
+              bottom: 95px;
+
+} 
+
+.imp
+{
+              display: flex;
+              flex-direction: row;
+} 
+
+/* iPad mini */
+
+@media screen and (min-width:768px)
+{
+              .imp{
+                            display: flex;
+                            flex-direction: column;
+              }
+              .last{
+                            display: flex;
+                            flex-direction: column;
+                            clear: both;
+                            width: 800px;
+              }
+
+              
+}
+
+/* iphone */
+@media screen and (min-width:350px){
+              .end{
+                            display: flex;
+                            flex-direction: column;
+              }
+} 
+
